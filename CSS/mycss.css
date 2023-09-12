@@ -1,0 +1,77 @@
+:root {
+    --mycolor00: #FFFFFF;
+    --mycolor99: #111111;
+    --mycolor01: #438a56;
+    --mycolor02: #48c22d;
+    --mycolor03: #5e78eb;
+    --mycolor04: #eb885e;
+    --mycolor05: #eb5e96;
+    --mycolor06: #00ffbf;
+    --mycolor07: #FF6B6B;
+    --mycolor08: #FFC107;
+    --mycolor09: #8BC34A;
+    --mycolor10: #03A9F4;
+    --mycolor11: #FF4081;
+    --mycolor12: #FF9800;
+    --mycolor13: #9C27B0;
+    --mycolor14: #FF5722;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+.demo {
+    border: 5px solid var(--mycolor06);
+    margin: 15px;
+    padding: 15px;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.box01{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid var(--mycolor99);
+}
+
+.box02{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+    border: 3px solid var(--mycolor99);
+}
+
+.box03{
+    height: 200px;
+    background-color: var(--mycolor04);
+    border: 3px solid var(--mycolor99);
+}
+
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}

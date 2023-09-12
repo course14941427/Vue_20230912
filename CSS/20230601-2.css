@@ -1,0 +1,169 @@
+:root {
+    --mycolor00: #FFFFFF;
+    --mycolor99: #111111;
+    --mycolor01: #438a56;
+    --mycolor02: #48c22d;
+    --mycolor03: #5e78eb;
+    --mycolor04: #eb885e;
+    --mycolor05: #eb5e96;
+    --mycolor06: #00ffbf;
+    --mycolor07: #FF6B6B;
+    --mycolor08: #FFC107;
+    --mycolor09: #8BC34A;
+    --mycolor10: #03A9F4;
+    --mycolor11: #FF4081;
+    --mycolor12: #FF9800;
+    --mycolor13: #9C27B0;
+    --mycolor14: #FF5722;
+}
+
+body {
+    background-color: var(--mycolor04);
+    padding-top: 15px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    /*外距*/
+    width: 1024px;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper .logo {
+    background-color: var(--mycolor00);
+    background-image: url(../image/alex-shuper-Py_9LbrHPgk-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    background-color: var(--mycolor02);
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--mycolor05);
+    margin-right: 5px;
+    color: #111111;
+    /*字體顏色*/
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    color: var(--mycolor05);
+}
+
+.friendlink nav {
+    background-color: #3c3939;
+    text-align: center;
+}
+
+.friendlink nav ul {
+    display: inline-block;
+}
+
+.friendlink nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.friendlink nav ul li a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e78eb;
+    margin-right: 5px;
+    color: #111111;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.friendlink nav ul li a:hover {
+    background-color: #111111;
+    color: #5e78eb
+}
+
+.content_in {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: var(--mycolor03);
+}
+
+.content_in a {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #eb885e;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content_in a:hover {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+
+.content_in h1 {
+    color: var(--mycolor11);
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_in p {
+    font-size: 26px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.footer {
+    background-color: #8BC34A;
+    color: var(--mycolor99);
+    text-align: center;
+}
+
+.footer p {
+    font-size: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+
+/* 響應式網頁設定 */
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 95%;
+    }
+
+}
